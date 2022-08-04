@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        .container{
+            border: black;
+            background-color: khaki;
+            height: 3500px;
+        }
+        .box {
+            border: 2px solid red;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+            display: inline-block;
+        }
+
+        /* THESE ARE TYPYES OF POSITIONS
+            1.STATIC(DEFAULT)
+            2.ABSOLUTE
+            3.RELATIVE 
+            4.fixed
+            5.sticky   */
+        #box3 {
+            /* Relative = Relative to its normal position.  */
+            /* position: relative;
+            
+            /* top: 20px;
+            left: 34px; */
+
+            /*Absolute = Relative position according to its parent (First) position. */
+            /* position: absolute; */
+
+            /* fixed = position the element relative to browser window */
+            /* position: fixed;
+            right: 10px; */
+
+            /*Sticky = Fixed position to its position */
+            position: sticky;
+            top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box4">4</div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .container {
+            width: 900px;
+            border: 3px solid purple;
+            margin: 33px auto;
+            background-color: rgb(250, 216, 186);
+        }
+
+        .item {
+            border: 3px solid gray;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: rgb(250, 224, 224);
+        }
+
+        #fruit {
+            float: left;
+            width: 48%;
+        }
+
+        #computer {
+            float: left;
+            float: right;
+            width: 48%;
+        }
+
+        #stationary {
+            /* float: left; */
+            clear: both;
+            /*WE CAN RIGHT CLEAR:RIGHT/LEFT*/
+            width: 99%;
+        }
+
+        p,
+        h3 {
+            /* text-align: right;
+            text-align: left;
+            text-align: center; */
+            text-align: justify;
+          
+        }
+        h1{
+            margin: auto;          
+            width: 455px;
+            padding: 30px 30px 30px 30px;
+           
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to my store.</h1>
+        <div id="fruit" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, dolor
+                consequuntur! Corporis accusantium neque deserunt voluptate reiciendis perspiciatis a illo. Sit tempora
+                velit laboriosam necessitatibus blanditiis ipsum architecto debitis Lorem, ipsum dolor sit amet
+                consectetur adipisicing elit. Voluptate deleniti tempore at odit temporibus accusantium itaque velit
+                enim quam atque! Perspiciatis accusantium, aperiam cupiditate amet sit quis, iure reprehenderit animi
+                dicta similique maiores voluptatem!</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computers</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, dolor
+                consequuntur! Corporis accusantium neque deserunt voluptate reiciendis perspiciatis a illo. Sit tempora
+                velit laboriosam necessitatibus blanditiis ipsum architecto debitis Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Pariatur facilis amet nesciunt fuga! Sit odio quis amet tenetur cumque
+                vero rem reprehenderit nam, est quasi illo dolorem id sint eveniet. Corrupti laudantium excepturi facere
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita provident deleniti ea porro unde
+                aliquam ipsam voluptas atque nostrum exercitationem. </p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci,
+                dolor consequuntur! Corporis accusantium neque deserunt voluptate reiciendis perspiciatis a illo. Sit
+                tempora velit laboriosam necessitatibus blanditiis ipsum architecto debitis quod.</p>
+        </div>
+        <div id="glasses" class="item">
+            <h3>Stationary</h3>
+            <p id="glassespara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci,
+                dolor consequuntur! Corporis accusantium neque deserunt voluptate reiciendis perspiciatis a illo. Sit
+                tempora velit laboriosam necessitatibus blanditiis ipsum architecto debitis quod.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
