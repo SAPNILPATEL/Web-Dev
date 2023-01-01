@@ -1,2 +1,2 @@
 # Web-Dev
-This Repository contain the CWH Course files.
+This Repository contains the files related to Web Development Tutorials of Code With Harry.
